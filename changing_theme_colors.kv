@@ -1,0 +1,13 @@
+MDScreen
+
+    MDBoxLayout
+        orientation: "vertical"
+
+        MDToolbar
+            title: "Theme Changing Application"
+            left_action_items: [["menu",lambda x:app.show_code()]]
+            right_action_items: [["brightness-6",lambda x: app.change_theme()]]
+
+        MDLabel
+            halign: "center"
+            text: "Hello World"
